@@ -1,0 +1,12 @@
+# raw / large data
+data/raw/
+data/interim/
+
+# python
+__pycache__/
+*.pyc
+.env
+.venv
+
+# OS
+.DS_Store
