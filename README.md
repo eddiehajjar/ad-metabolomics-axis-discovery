@@ -5,6 +5,7 @@ This project analyzes paired, untargeted lipidomics data from patients with atop
 Instead of asking “Which group does this patient belong to?”, the core question is:
 Do patients share a common metabolic response to treatment, and if so, how strongly does each patient express it?
 
+⸻
 
 Data Overview
 	•	Study: NIH Metabolomics Workbench (ST002302)
@@ -13,6 +14,7 @@ Data Overview
 
 Each sample contains hundreds of lipid features, represented by mass-to-charge ratio and retention time (e.g., m/z_rt), with an intensity value per patient. These intensities reflect relative lipid abundance.
 
+⸻
 
 Analysis Approach (High-Level)
 
@@ -34,6 +36,7 @@ Each sample is then projected onto this axis, yielding a scalar axis score:
 
 This converts thousands of lipid measurements into an interpretable, patient-specific response coordinate.
 
+⸻
 
 Key Findings
 
@@ -57,6 +60,7 @@ Predictive modeling (exploratory)
 
 Regularized regression models trained on baseline lipidomics show modest but significant ability to predict response magnitude under leave-one-subject-out evaluation — especially in negative ion mode.
 
+⸻
 
 Why This Matters
 
